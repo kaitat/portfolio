@@ -1,0 +1,1 @@
+export { GTMRegister } from "./GTMRegister";

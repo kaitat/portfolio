@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "type-check": "turbo type-check",
+    "clean": "turbo clean",
+    "format": "biome check . --write --unsafe",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@repo/typescript-config": "workspace:*",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "turbo": "^2.1.2"
+  },
+  "packageManager": "pnpm@9.5.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "volta": {
+    "node": "22.11.0"
+  },
+  "name": "nextjs-template"
+}
