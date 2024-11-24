@@ -6,4 +6,4 @@ export const APPLICATION_URL =
 export const MICROCMS_URL = "https://xxxx.microcms.io";
 export const CMS_API_BASE_PATH = "/api/v1/";
 export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? "";
-export const SITE_TITLE = "サイトタイトルを入れてね";
+export const SITE_TITLE = "marnie";

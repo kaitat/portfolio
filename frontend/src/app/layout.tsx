@@ -1,11 +1,9 @@
 import "./globals.css";
+import { Footer, Header } from "@/components/layout";
+import { SITE_TITLE } from "@/constants/env";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import type { FC, PropsWithChildren } from "react";
-
-import "./globals.css";
-import { Footer, Header } from "@/components/layout";
-import { SITE_TITLE } from "@/constants/env";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +29,7 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header>
-          <h1>{SITE_TITLE}</h1>
-        </Header>
+        <Header>{SITE_TITLE}</Header>
         <div className="container mx-auto max-w-5xl">
           <div className="mx-4 lg:mx-8">{children}</div>
         </div>
