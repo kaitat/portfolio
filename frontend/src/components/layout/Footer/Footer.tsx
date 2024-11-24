@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="container mx-auto max-w-4xl bg-white mt-8">
+    <footer className="container mx-auto max-w-5xl bg-white mt-8">
       <hr className="my-4 border-gray-200 sm:mx-auto" />
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
@@ -18,18 +18,8 @@ export const Footer = () => {
             <div>
               <ul className="text-text-medium/text-medium text-sm font-medium">
                 <li className="mb-2">
-                  <Link href="/privacy-policy" className="underline">
-                    プライバシーポリシー
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/terms" className="underline">
-                    利用規約
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact" className="underline">
-                    お問い合わせ
+                  <Link href="/about-me" className="underline">
+                    about me
                   </Link>
                 </li>
               </ul>

@@ -1,0 +1,1 @@
+export { ProfileMini } from "./ProfileMini";
